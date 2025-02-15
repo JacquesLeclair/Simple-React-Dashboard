@@ -1,0 +1,14 @@
+
+Initialize a Git Repository:
+
+git init
+git add .
+git commit -m "Initial commit"
+git remote set-url origin https://github.com/JacquesLeclair/Simple-React-Dashboard.git
+or
+git remote add origin https://github.com/JacquesLeclair/Simple-React-Dashboard.git
+
+git branch -M main
+git fetch origin
+git merge origin/main
+git push -f origin main
